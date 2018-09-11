@@ -1,0 +1,11 @@
+[lbservers]
+loadbalancer1 ansible_host=34.242.232.239
+
+[wildflyservers]
+wildfly1 ansible_host=34.255.8.55
+wildfly2 ansible_host=34.254.179.117
+
+[dev]
+loadbalancer1
+wildfly1
+wildfly2
